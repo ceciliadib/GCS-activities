@@ -1,0 +1,9 @@
+Package: hellogcs
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Cecilia Dib <ceciliadib@dib>
+Installed-Size: 12
+Section: misc
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: this is an app with a name hellogcs

@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Sun, 12 Nov 2017 19:35:40 -0200
+Source: hellogcs
+Binary: hellogcs
+Architecture: amd64
+Version: 1.0-1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: Cecilia Dib <ceciliadib@dib>
+Changed-By: Cecilia Dib <ceciliadib@dib>
+Description:
+ hellogcs   - this is an app with a name hellogcs
+Changes:
+ hellogcs (1.0-1) UNRELEASED; urgency=low
+ .
+   * Initial release.
+Checksums-Sha1:
+ 3644caf9840bd2574ce9a78442672a560b48d277 2014 hellogcs_1.0-1_amd64.deb
+Checksums-Sha256:
+ 9b54b9109f34915481d4900ce8808d12dba6e548d6ff2058059603f7bbea5d06 2014 hellogcs_1.0-1_amd64.deb
+Files:
+ 24b0ca8df03d5391388c056e850c0324 2014 misc optional hellogcs_1.0-1_amd64.deb

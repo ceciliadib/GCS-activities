@@ -1,0 +1,14 @@
+ dpkg-buildpackage -rfakeroot -D -us -uc
+dpkg-buildpackage: pacote fonte hellogcs
+dpkg-buildpackage: versão da fonte 1.0-1
+dpkg-buildpackage: source distribution UNRELEASED
+dpkg-buildpackage: fonte alterada por Cecilia Dib <ceciliadib@dib>
+ dpkg-source --before-build dist
+dpkg-buildpackage: arquitetura do servidor amd64
+ fakeroot debian/rules clean
+dh clean 
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b dist
+dpkg-source: erro: não pode construir com o formato da fonte '3.0 (quilt)': no upstream tarball found at ../hellogcs_1.0.orig.tar.{bz2,gz,lzma,xz}
+dpkg-buildpackage: erro: dpkg-source -b dist deu erro de saída estado 255
